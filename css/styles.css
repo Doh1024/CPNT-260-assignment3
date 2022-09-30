@@ -78,6 +78,12 @@ h1{
   padding-bottom: 20px;
 }
 
+/*vertical dividers for nav*/
+.nav-bar ul li:after{
+  content: "|";
+  color: white;
+}
+
 /*footer background color*/
 footer{
   background-color: black;
