@@ -1,0 +1,119 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+main{
+  flex:auto;
+  text-align: center;
+}
+
+/*title font, color and size*/
+.title{
+  font-family: 'Valorant', cursive;
+  display: flex;
+  margin: 0;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+/*css for everything inside header*/
+header {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 60vh;
+}
+
+/*header navigation bar*/
+.nav-bar ul{
+  list-style: none;
+  /*padding: 0;*/
+  display:flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+}
+
+/*spacing and colors for header nav bar links*/
+.nav-bar ul a{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/*footer background color*/
+footer{
+  background-color: black;
+}
+
+/*copyright css*/
+footer p{
+  color: white;
+  padding-left: 10px;
+}
+
+/*footer nav bar spacing*/
+.footer-nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+/*footer nav list items spacing*/
+.footer-nav ul li{
+  padding-top: 1rem;
+}
+
+/*footer nav list link fonts color and spacing*/
+.footer-nav ul a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15;
+  font-family: 'Inter Tight', sans-serif;
+  color: white;
+}
+
+/*socials spacing*/
+footer div a{
+  padding: 10px;
+  float:right;
+}
+
+/*----------------------------------------------*/
+/*hovers for header nav footer nav and title*/
+.footer-nav ul a:hover{
+  background: rgba(160, 158, 158, 0.2);
+  border-radius: 6.4px;
+}
+
+.nav-bar ul a:hover{
+  background: rgba(160, 158, 158, 0.2);
+  border-radius: 6.4px;
+}
+
+.title:hover{
+  color: #EB0029;
+}
+
+/*---------------------------------------------*/
+
+
