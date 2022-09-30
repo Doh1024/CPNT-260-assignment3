@@ -51,6 +51,7 @@ h1{
   list-style: none;
   display:flex;
   justify-content: space-between;
+  padding: 15px;
 }
 
 /*title font, color and size*/
@@ -143,3 +144,20 @@ footer div a{
 }
 
 /*---------------------------------------------*/
+
+@media only screen and (max-width: 600px)
+{
+  h1{
+    padding-left: 30px;
+  }
+
+  .footer-nav ul{
+    padding: 0;
+  }
+  
+  .nav-bar ul a{
+    font-size: 15px;
+    margin: 0;
+    padding: 5px;
+  }
+}
